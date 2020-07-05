@@ -29,15 +29,7 @@ private ArFragment arFragment;
             assert extras != null;
             Uri myUri = Uri.parse(extras.getString("imageUri"));
             createViewRenderable(hitResult.createAnchor());
-//            ModelRenderable.builder()
-//                    .setSource(this, myUri)
-//                    .build()
-//                    .thenAccept(renderable -> renderable = renderable)
-//                    .exceptionally(
-//                            throwable -> {
-//
-//                                return null;
-//                            });
+
         });
     }
 
